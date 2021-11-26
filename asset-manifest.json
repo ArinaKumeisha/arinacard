@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/arinacard/static/css/main.f6d0f2e4.chunk.css",
+    "main.js": "/arinacard/static/js/main.7d55b549.chunk.js",
+    "main.js.map": "/arinacard/static/js/main.7d55b549.chunk.js.map",
+    "runtime-main.js": "/arinacard/static/js/runtime-main.1b868ccb.js",
+    "runtime-main.js.map": "/arinacard/static/js/runtime-main.1b868ccb.js.map",
+    "static/js/2.9dba8ce7.chunk.js": "/arinacard/static/js/2.9dba8ce7.chunk.js",
+    "static/js/2.9dba8ce7.chunk.js.map": "/arinacard/static/js/2.9dba8ce7.chunk.js.map",
+    "static/js/3.cb179472.chunk.js": "/arinacard/static/js/3.cb179472.chunk.js",
+    "static/js/3.cb179472.chunk.js.map": "/arinacard/static/js/3.cb179472.chunk.js.map",
+    "index.html": "/arinacard/index.html",
+    "static/css/main.f6d0f2e4.chunk.css.map": "/arinacard/static/css/main.f6d0f2e4.chunk.css.map",
+    "static/js/2.9dba8ce7.chunk.js.LICENSE.txt": "/arinacard/static/js/2.9dba8ce7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1b868ccb.js",
+    "static/js/2.9dba8ce7.chunk.js",
+    "static/css/main.f6d0f2e4.chunk.css",
+    "static/js/main.7d55b549.chunk.js"
+  ]
+}
