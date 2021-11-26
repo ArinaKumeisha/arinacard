@@ -46,7 +46,6 @@ export const addCardTC = (cardsPack_id: string): AppThunk => {
             .then(res => {
                 console.log('addCardTC then:', res)
                 dispatch(getCardsTC(cardsPack_id))
-                dispatch(getCardsPackTC())
             })
             .catch(res => {
                 console.log('addCardTC catch:', res.response.data.error)

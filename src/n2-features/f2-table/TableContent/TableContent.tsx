@@ -1,7 +1,4 @@
 import React from 'react';
-import {CardsPackType, CardType} from "../../../n1-main/m2-bll/api/cards-api";
-import {useSelector} from "react-redux";
-import {AppStoreType} from "../../../n1-main/m2-bll/store";
 import s from './TableContent.module.scss'
 import {TableHeaderModelType} from "../Table";
 import {v1} from "uuid";
@@ -18,8 +15,6 @@ type PropsType = {
 
 
 export const TableContent: React.FC<PropsType> = (props) => {
-    const userIdAfterRadio = useSelector<AppStoreType, string>(state => state.table.userIdAfterRadio)
-    const pageCount = useSelector<AppStoreType, number>(state => state.table.pageCount).toString()
     return (
         <div className={s.tableContent}>
             <div className={s.tableHeader}>
