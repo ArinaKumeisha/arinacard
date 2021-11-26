@@ -1,0 +1,38 @@
+@import '../../n1-main/m1-ui/common/components/sass/variables';
+
+.table {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+        align-self: center;
+    }
+
+    .input {
+        margin-left: 10px;
+        width: 300px;
+    }
+
+    .button {
+        width: 60px;
+        height: 30px;
+    }
+
+
+    .selectedCardPackInfo {
+        display: flex;
+
+        .element {
+            display: flex;
+            .elementHeader {
+                margin-left: 5px;
+            }
+            .elementValue {
+                margin-left: 5px;
+                background: $primaryColor;
+            }
+        }
+    }
+
+}

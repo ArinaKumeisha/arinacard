@@ -1,0 +1,32 @@
+@import 'n1-main/m1-ui/common/components/sass/variables';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  &::selection {
+    color: white;
+    background: $primaryColor;
+  }
+}
+
+body {
+  margin: 0;
+  font-family: $textFontFamily;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-size: 25px;
+}
+h2 {
+  font-size: 20px;
+}
+hr {
+  border: 1px solid $primaryColor;
+  margin-top: 5px;
+}

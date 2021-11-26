@@ -1,0 +1,26 @@
+.pagination {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+
+}
+
+.select {
+    font-weight: bold;
+}
+
+.item {
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+    background-color: #f5f2d0;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn {
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+
+}

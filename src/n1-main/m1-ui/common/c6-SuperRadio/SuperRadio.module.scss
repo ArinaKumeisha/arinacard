@@ -1,0 +1,25 @@
+@import '../components/sass/variables';
+
+.radio {
+    appearance: none;
+    cursor: pointer;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    background: none;
+    border: 2px solid $primaryColor;
+    &:hover {
+        border: 2px solid $accentColor;
+    }
+
+    &:checked {
+        background: $primaryColor;
+    }
+}
+
+.label {
+    cursor: pointer;
+}
+
+input {
+}

@@ -1,0 +1,18 @@
+.settings {
+    display: flex;
+    flex-direction: column;
+    .settingEl {
+        margin-top: 5px;
+    }
+    .radioLabel {
+        display: flex;
+        div {
+            margin-right: 5px;
+        }
+    }
+    .input {
+        width: 40px;
+        margin-left: 5px;
+        text-align: center;
+    }
+}

@@ -1,0 +1,9 @@
+@import '../components/sass/variables';
+
+.select {
+    width: 100px;
+    height: 25px;
+    cursor: pointer;
+    background: $primaryColor;
+    border: none;
+}

@@ -1,0 +1,28 @@
+
+.form {
+  margin: 100px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  left: 60px;
+  div {
+    padding: 5px;
+    button {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  span {
+    text-align: center;
+    padding: 5px;
+
+  }
+}
+.border {
+  border: 2px solid black;
+}
+.text {
+  text-align: center;
+  font-size: 30px;
+}

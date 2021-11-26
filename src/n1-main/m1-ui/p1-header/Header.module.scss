@@ -1,0 +1,29 @@
+@import '../common/components/sass/variables';
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    background-color: $primaryColor;
+
+    .links {
+        margin-right: 20px;
+    }
+    .link {
+        cursor: pointer;
+    }
+    a {
+        color: #212529;
+        text-decoration: none;
+        font-weight: 600;
+        margin-right: 10px;
+    }
+
+    .logo {
+        font-family: 'Mochiy Pop P One', sans-serif;
+        font-size: 40px;
+        padding-left: 20px;
+    }
+
+}

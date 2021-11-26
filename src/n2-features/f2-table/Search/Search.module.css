@@ -1,0 +1,20 @@
+.block {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 20vh;
+    flex-wrap: wrap;
+    margin: 0;
+
+}
+
+.search {
+    width: 60px;
+    height: 30px;
+}
+
+input::placeholder {
+    font-size: 16px;
+    color: #f49c74;
+    padding: 10px
+}

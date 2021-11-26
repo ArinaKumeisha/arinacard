@@ -1,0 +1,45 @@
+@import '../components/sass/variables';
+
+
+.button {
+    cursor: pointer;
+    width: 125px;
+    height: 41px;
+    box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
+    transition: all 0.5s ease;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    color: $textColor;
+    font-family: $textFontFamily;
+
+    &:disabled {
+        cursor: auto;
+        background-color: #939597;
+        color: #eeffff;
+        &:hover {
+            background: #939597;
+            box-shadow: 0 5px 15px rgb(0 0 0 / 15%);
+        }
+    }
+}
+
+.default {
+    background-color: $primaryColor;
+    border-color: $primaryColor;
+    color: #212529;
+    &:hover {
+        background-color: $accentColor;
+        box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
+    }
+}
+
+.red {
+    background: #ff3838;
+    border: none;
+    &:hover {
+        background: #ff0000;
+        box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
+    }
+}
